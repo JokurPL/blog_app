@@ -1,0 +1,11 @@
+@tailwind base;
+.articleBody h2 {
+    @apply text-2xl;
+}
+
+.articleBody p {
+    @apply m-3;
+}
+
+@tailwind components;
+@tailwind utilities;
