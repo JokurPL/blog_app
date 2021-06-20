@@ -1,4 +1,4 @@
-import { getFileBySlug, getList } from 'lib/markdownParser';
+import { getFileBySlug, getList } from 'lib/markdownparser';
 
 export const getListOfArticles = () => {
   const articles = getList('_articles');
